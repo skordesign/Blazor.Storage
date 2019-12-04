@@ -7,10 +7,10 @@ namespace Blazor.Storage
 {
     public interface ILocalStorage
     {
-        Task<T> Get<T>(string key);
-        Task Set(string key, object value);
-        Task Clear();
-        Task Remove(string key);
-        Task<int> Length { get; }
+        ValueTask<T> Get<T>(string key);
+        ValueTask<string> Set (string key, object value);
+        ValueTask<object> Clear ();
+        ValueTask<object> Remove (string key);
+        ValueTask<int> Length { get; }
     }
 }
