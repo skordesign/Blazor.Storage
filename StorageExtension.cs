@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace SkorBlazor.Storage
+namespace Blazor.Storage
 {
     public static class StorageExtension
     {

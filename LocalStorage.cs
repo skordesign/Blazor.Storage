@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace SkorBlazor.Storage
+namespace Blazor.Storage
 {
     public class LocalStorage : ILocalStorage
     {
